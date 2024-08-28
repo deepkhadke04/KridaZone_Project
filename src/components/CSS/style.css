@@ -1,0 +1,40 @@
+
+#login{
+ /* background-image: url('../images/bg2.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cust{
+  /*background-image: url('../images/bg1.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#sell{
+ /* background-image: url('../images/bg1.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.4); 
+  border-radius: 15px;
+}
+
+h3{
+
+  color:black;
+
+}
+
+p{
+  color: black;
+}
+
+i{
+  padding-left: 20px;
+}
