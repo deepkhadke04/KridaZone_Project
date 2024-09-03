@@ -64,6 +64,7 @@ const CartComponent = () => {
     try {
       await fetch(`https://localhost:7072/api/Cart/${cartId}`, { method: 'DELETE' });
       fetchCartItems();
+	window.location.reload();
     } catch (error) {
       console.error('Error removing item from cart:', error);
     }
@@ -73,6 +74,7 @@ const CartComponent = () => {
     try {
       await fetch(`https://localhost:7072/api/Cart/deletebycustomer/${customerId}`, { method: 'DELETE' });
       fetchCartItems();
+	window.location.reload();
     } catch (error) {
       console.error('Error clearing cart:', error);
     }

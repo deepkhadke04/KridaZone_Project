@@ -4,7 +4,7 @@ import { Button, Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CSS/style.css';
 import SellerProducts from "./SellerProducts";
-import ErrorBoundary from "./ErrorBoundry";
+//import ErrorBoundary from "./ErrorBoundry";
 import { useNavigate } from "react-router-dom";
 
 
